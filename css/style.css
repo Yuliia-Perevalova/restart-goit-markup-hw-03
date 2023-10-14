@@ -3,9 +3,18 @@ body {
     color:#434455;
     background: #FFF;
 }
- 
 
-.header {}
+ .container {
+     width: 100%;
+     max-width: 1158px;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin: 0 auto;
+ }
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .link-menu-logo {
     font-family: Raleway, sans-serif;
@@ -16,7 +25,7 @@ body {
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
-    margin-right: 70px;
+    margin-right: 76px;
 }
 
 .header-logo-first {
@@ -25,13 +34,7 @@ body {
 .header-logo-second {
  color: #2E2F42;
 }
-.container {
-    width: 100%;
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
+
 .header-container{
     display: flex;
     align-items: center;
@@ -65,6 +68,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .header-studio:hover,
@@ -108,6 +112,7 @@ body {
 
 .header-list-contact {
     display: flex;
+    gap: 40px;
 }
 
 .header-mail {
@@ -196,7 +201,6 @@ text-align: center;
 
 }
 .descrip-wrap {
-   
     
 }
 .descrip-list {
@@ -206,6 +210,10 @@ text-align: center;
 }
 .descrip-blok-items {
 
+}
+
+.about-pict {
+    display: block;
 }
 
 .descrip-title {
@@ -286,6 +294,7 @@ text-align: center;
 
 }
 .block-pic-second {
+    display: block;
     width: calc((100% - 144px) / 6);
     
 }
