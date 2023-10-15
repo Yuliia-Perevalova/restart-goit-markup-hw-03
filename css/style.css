@@ -345,13 +345,15 @@ width: calc((100% - 72px) / 4);
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
+    justify-content: space-between;
     
 }
 
 .block-pic-second {
-
 width: calc((100% - 48px) / 3);
+}
+.block-pic-second:last-child {
+    margin: 0;
 }
 
 .title-wrap {
