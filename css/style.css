@@ -162,15 +162,15 @@ ul {
     }
 
 .main-sector {
-    
-    
+    padding: 188px 0;   
 }
+
 .main-sector-wrap {
 background: #2E2F42;
 width: 1440px;
  height: 600px;
  flex-shrink: 0;
-padding: 188px 0;
+
 }
 
 
@@ -347,9 +347,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .block-pic-second {
-width: calc((100% - 48px) / 3);
-
-    
+width: calc((100% - 48px) / 3);   
 }
 
 .title-wrap {
