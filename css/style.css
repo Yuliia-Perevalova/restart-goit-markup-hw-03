@@ -225,7 +225,7 @@ overflow: hidden;
     gap: 24px;
 }
 
-.descrip-itemss {
+.descrip-items {
 width: calc((100% - 72px) / 4);
 }
 
