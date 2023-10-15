@@ -338,26 +338,27 @@ width: calc((100% - 72px) / 4);
     border: 1px solid #e7e9fc;
     border-top: none;
     
+    
 }
 .section-list-fourth {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100% - 48px) / 3);
+    
     
 }
 
 .block-pic-second {
 
-
+width: calc((100% - 48px) / 3);
 }
 
 .title-wrap {
     padding: 32px 16px;
      border: 1px solid #e7e9fc;
     border-top: none;
-   
+
 }
 
 .footer-end {
