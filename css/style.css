@@ -305,9 +305,22 @@ width: calc((100% - 72px) / 4);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
 
-.section {}
+
+/*-------- section fourth-------*/
+
+
+.section-last {
+    padding-top: 120px;
+     padding-bottom: 120px;
+}
+.foutth-list-wrap{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .section-list-fourth {
     display: flex;
     flex-wrap: wrap;
@@ -317,7 +330,7 @@ width: calc((100% - 72px) / 4);
 }
 .block-pic-second {
     display: block;
-    width: calc((100% - 144px) / 6);
+   width: calc((100% - 48px) / 3);
     
 }
 
