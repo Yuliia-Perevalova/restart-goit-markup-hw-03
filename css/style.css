@@ -337,6 +337,12 @@ display: block;
     
 }
 
+.title-wrap {
+    padding: 32px 16px;
+     border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .footer-end {
     background: #2E2F42;
     padding: 100px 0;
