@@ -158,7 +158,6 @@ ul {
 
 
 .main-part {
-    
     }
 
 .main-sector {
@@ -310,7 +309,6 @@ width: calc((100% - 72px) / 4);
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    text-align: center;
     margin-bottom: 8px;
     
         
@@ -350,8 +348,9 @@ width: calc((100% - 72px) / 4);
 }
 
 .block-pic-second {
-width: calc((100% - 48px) / 3);
+width: calc((100%-(2*(3*24px)))/6)
 }
+
 .block-pic-second:last-child {
     margin: 0;
 }
