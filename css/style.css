@@ -329,7 +329,7 @@ width: calc((100% - 72px) / 4);
 .section-last {
     padding-top: 120px;
      padding-bottom: 120px;
-    width: calc((100% - 48px) / 3);
+  
     
 }
 .foutth-list-wrap {
@@ -351,6 +351,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .block-pic-second {
+width: calc((100% - 48px) / 3);
 
 }
 
