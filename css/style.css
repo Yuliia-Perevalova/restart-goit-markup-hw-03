@@ -23,7 +23,7 @@ ul {
      padding-left: 15px;
      padding-right: 15px;
      margin: 0 auto;
-     
+    padding: 0 15;
  }
 
 .header {
@@ -334,7 +334,6 @@ width: calc((100% - 72px) / 4);
     
 }
 .foutth-list-wrap {
-   
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 0 15;
