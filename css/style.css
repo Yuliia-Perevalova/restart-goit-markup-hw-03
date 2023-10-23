@@ -332,7 +332,6 @@ width: calc((100% - 72px) / 4);
 }
 
 .names-soc-item {
-   
 }
 
 .names-soc-link {
@@ -343,7 +342,7 @@ width: calc((100% - 72px) / 4);
      display: flex;
      align-items: center;
      justify-content: center;
-   
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .names-soc-icon {
     width: 16px;
