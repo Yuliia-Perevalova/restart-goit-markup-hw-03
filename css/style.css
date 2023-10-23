@@ -325,14 +325,15 @@ width: calc((100% - 72px) / 4);
     display: flex;
     justify-content: center;
     gap: 24px;
- 
+    width: 40px;
+        height: 40px;
+    
    
 }
 
 .names-soc-item {
     width: 40px;
     height: 40px;
-    
 }
 
 .names-soc-link {
