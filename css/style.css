@@ -415,3 +415,15 @@ display: inline-block;
         width: 264px;
         height: 72px;
 }
+.social-media-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+}
+.blok-footer-first {
+    display: flex;
+}
