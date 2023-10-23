@@ -166,7 +166,7 @@ padding: 188px 0;
 }
 
 .main-sector-wrap {
-background-image: linear-gradient(to bottom,
+background-image: linear-gradient(
  rgba(46, 47, 66, 0.70),
  rgba(46, 47, 66, 0.70)),
 url(../images/people-bg.png);
@@ -424,6 +424,6 @@ display: inline-block;
     margin-bottom: 16px;
 
 }
-.blok-footer-first {
+.social-media-wrap {
     display: flex;
 }
