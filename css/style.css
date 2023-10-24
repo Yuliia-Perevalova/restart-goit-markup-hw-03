@@ -49,9 +49,11 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     position: relative;
         color: #404bbf;
     
+    
 }
 
 .header-logo-first {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-logo-second {
@@ -84,7 +86,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     color: #2E2F42;
     display: flex;
     gap: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
     
 
@@ -118,6 +119,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-portfolio:hover,
