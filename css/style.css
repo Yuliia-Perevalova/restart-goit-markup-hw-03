@@ -46,6 +46,8 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     color: #4D5AE5;
     text-decoration: none;
     margin-right: 76px;
+    position: relative;
+        color: #404bbf;
     
 }
 
@@ -65,8 +67,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     display: flex;
     align-items: center;
     margin-right: auto;
-    position: relative;
-        color: #404bbf;
+
 }
 
 .list {
@@ -108,7 +109,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-
 }
 .header-portfolio {
     font-weight: 500;
@@ -131,6 +131,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contacts:hover,
@@ -146,6 +147,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 .header-list-contact {
     display: flex;
     gap: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mail {
@@ -155,7 +157,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     color: #434455;
     text-decoration: none;
     margin-right: 40px;
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-mail:hover,
 .header-mail:focus {
