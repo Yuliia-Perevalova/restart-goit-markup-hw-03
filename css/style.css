@@ -31,6 +31,9 @@ ul {
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
+    width: 1140px;
+    height: 72px;
+    flex-shrink: 0;
 }
 
 .link-menu-logo {
@@ -43,6 +46,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     color: #4D5AE5;
     text-decoration: none;
     margin-right: 76px;
+    
 }
 
 .header-logo-first {
@@ -57,6 +61,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     align-items: center;
     position: relative;
     color: #404bbf;
+    
 }
 .navig {
     display: flex;
