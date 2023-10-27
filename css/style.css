@@ -71,7 +71,7 @@ box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
         letter-spacing: 0.03em;
    
 }
-.navig {
+.navig-header {
     display: flex;
     align-items: center;
     margin-right: auto;
